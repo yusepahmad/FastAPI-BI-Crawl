@@ -1,0 +1,38 @@
+# Ignore file for Docker
+
+# Ignore system-specific hidden files
+.*
+!/.dockerignore
+
+# Ignore node_modules directory
+node_modules
+
+# Ignore any log files
+*.log
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore yarn logs
+yarn-error.log
+
+# Ignore Docker specific files and directories
+.dockerignore
+.docker
+.dockerignore
+.dockerenv
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore Dockerfile cache
+**/.docker/build/
+
+# Ignore development and test data
+/testdata/
+/devdata/
