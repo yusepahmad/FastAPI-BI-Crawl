@@ -4,6 +4,9 @@ class SoftCode(HardCode):
     def __init__(self):
         super().__init__()
 
+    def hehe(self):
+        return 'hehe'
+
     async def kurs_data(self, option, akses, start, end):
         if option == "Time Series":
             file_path = f"s3://ai-pipeline-statistics/API/BI/Nilai Tukar Mata Uang/{akses}/{option}/{start}-{end}.json"
